@@ -1,3 +1,5 @@
+import * as THREE from 'https://unpkg.com/three/build/three.module.js';
+
 import { ColladaLoader } from 'three/examples/jsm/loaders/ColladaLoader.js';
 
 export const Component = AFRAME.registerComponent('collada-model', {
